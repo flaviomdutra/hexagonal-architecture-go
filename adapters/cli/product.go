@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/flaviomdutra/architecture-hexagonal-go/application"
+	"github.com/flaviomdutra/hexagonal-architecture-go/application"
 )
 
 func Run(service application.ProductServiceInterface, action string, productId string, productName string, price float64) (string, error) {

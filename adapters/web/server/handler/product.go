@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/codegangsta/negroni"
-	"github.com/flaviomdutra/architecture-hexagonal-go/adapters/dto"
-	"github.com/flaviomdutra/architecture-hexagonal-go/application"
+	"github.com/flaviomdutra/hexagonal-architecture-go/adapters/dto"
+	"github.com/flaviomdutra/hexagonal-architecture-go/application"
 	"github.com/gorilla/mux"
 )
 

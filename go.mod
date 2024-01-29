@@ -1,4 +1,4 @@
-module github.com/flaviomdutra/architecture-hexagonal-go
+module github.com/flaviomdutra/hexagonal-architecture-go
 
 go 1.21.6
 

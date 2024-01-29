@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/codegangsta/negroni"
-	"github.com/flaviomdutra/architecture-hexagonal-go/adapters/web/server/handler"
-	"github.com/flaviomdutra/architecture-hexagonal-go/application"
+	"github.com/flaviomdutra/hexagonal-architecture-go/adapters/web/server/handler"
+	"github.com/flaviomdutra/hexagonal-architecture-go/application"
 	"github.com/gorilla/mux"
 )
 

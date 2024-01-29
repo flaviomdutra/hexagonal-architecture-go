@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/flaviomdutra/architecture-hexagonal-go/adapters/cli"
-	mock_application "github.com/flaviomdutra/architecture-hexagonal-go/application/mocks"
+	"github.com/flaviomdutra/hexagonal-architecture-go/adapters/cli"
+	mock_application "github.com/flaviomdutra/hexagonal-architecture-go/application/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

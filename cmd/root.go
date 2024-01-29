@@ -7,8 +7,8 @@ import (
 	"database/sql"
 	"os"
 
-	dbInfra "github.com/flaviomdutra/architecture-hexagonal-go/adapters/db"
-	"github.com/flaviomdutra/architecture-hexagonal-go/application"
+	dbInfra "github.com/flaviomdutra/hexagonal-architecture-go/adapters/db"
+	"github.com/flaviomdutra/hexagonal-architecture-go/application"
 	"github.com/spf13/cobra"
 )
 
@@ -18,7 +18,7 @@ var productService = application.ProductService{Persistence: productDb}
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "architecture-hexagonal-go",
+	Use:   "hexagonal-architecture-go",
 	Short: "A brief description of your application",
 	Long: `A longer description that spans multiple lines and likely contains
 examples and usage of using your application. For example:
@@ -45,7 +45,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.architecture-hexagonal-go.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.hexagonal-architecture-go.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.

@@ -6,7 +6,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/flaviomdutra/architecture-hexagonal-go/adapters/cli"
+	"github.com/flaviomdutra/hexagonal-architecture-go/adapters/cli"
 	"github.com/spf13/cobra"
 )
 

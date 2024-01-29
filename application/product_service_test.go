@@ -3,8 +3,8 @@ package application_test
 import (
 	"testing"
 
-	"github.com/flaviomdutra/architecture-hexagonal-go/application"
-	mock_application "github.com/flaviomdutra/architecture-hexagonal-go/application/mocks"
+	"github.com/flaviomdutra/hexagonal-architecture-go/application"
+	mock_application "github.com/flaviomdutra/hexagonal-architecture-go/application/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )
